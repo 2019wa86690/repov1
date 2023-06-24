@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: ankushaksacr.azurecr.io/nginximage
+          image: ankushaksacr.azurecr.io/custom2nginxapp1
           ports:
             - containerPort: 80
 ---
